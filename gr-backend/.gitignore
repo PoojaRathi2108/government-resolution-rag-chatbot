@@ -1,0 +1,13 @@
+.env
+venv/
+src/data/
+
+models/__pycache__/
+routes/__pycache__/
+services/__pycache__/
+controllers/__pycache__/
+src/__pycache__/
+
+# Python cache
+__pycache__/
+*.py[cod]

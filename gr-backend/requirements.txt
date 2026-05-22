@@ -1,0 +1,52 @@
+# Core dependencies
+fastapi==0.115.9
+uvicorn==0.34.3
+python-dotenv==1.1.0
+pymongo==4.13.1
+
+# Pydantic & typing
+pydantic==2.11.7
+pydantic_core==2.33.2
+pydantic[email]
+typing_extensions==4.14.0
+annotated-types==0.7.0
+typing-inspection==0.4.1
+
+# Async & networking
+anyio==4.9.0
+sniffio==1.3.1
+h11==0.16.0
+click==8.2.1
+dnspython==2.7.0
+exceptiongroup==1.3.0
+idna==3.10
+
+# LangChain ecosystem - Latest compatible
+langchain
+langchain-core
+langchain-chroma
+langchain-deepseek 
+
+# ChromaDB and its build tools
+chromadb==1.0.9
+build>=1.0.3
+setuptools>=68.0.0
+wheel>=0.41.0
+
+
+motor
+python-postmark
+python-jose
+passlib
+datetime
+python-jose[cryptography]
+bcrypt>=4.0.1
+sse-starlette
+
+
+
+
+
+
+# Let FastAPI resolve the correct Starlette version
+# starlette is handled via fastapi's dependencies
